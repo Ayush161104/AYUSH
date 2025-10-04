@@ -10,7 +10,7 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    return a + b  # ❌ BUG: division should use /
+    return a / b  
 
 print("Addition:", add(10, 5))
 print("Subtraction:", subtract(10, 5))
